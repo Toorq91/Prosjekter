@@ -27,6 +27,6 @@ export default {
 
 <style scoped>
 .flex {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 300px);
 }
 </style>
