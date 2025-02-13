@@ -1,8 +1,8 @@
 <template>
   <div class="text-center mt-4"> <!-- Justert margin-top -->
     <!-- Streak Knapp -->
-    <button class="px-8 py-2 bg-blue-500 text-white font-semibold rounded-lg 
-        shadow-md hover:bg-blue-600 focus:outline-none transition-all duration-300 mb-4">
+    <button class="px-25 py-4 bg-blue-500 text-white font-semibold rounded-lg 
+        shadow-md hover:bg-blue-600 focus:outline-none transition-all duration-100 mb-4">
       Streak: {{ streak }} 🔥
     </button>
 
@@ -10,15 +10,15 @@
     <div class="space-x-2 mb-4">
       <button
         @click="incrementStreak"
-        class="px-8 py-2 bg-green-500 text-black font-semibold rounded-lg 
-        shadow-md hover:bg-green-600 focus:outline-none transition-all duration-300"
+        class="px-15 py-4 bg-green-500 text-black font-semibold rounded-lg 
+        shadow-md hover:bg-green-600 focus:outline-none transition-all duration-100"
       >
         Ja!
       </button>
       <button
         @click="resetStreak"
-        class="px-6 py-2 bg-red-500 text-black font-semibold rounded-lg 
-        shadow-md hover:bg-red-800 focus:outline-none transition-all duration-300"
+        class="px-13 py-4 bg-red-500 text-black font-semibold rounded-lg 
+        shadow-md hover:bg-red-900 focus:outline-none transition-all duration-100"
       >
         Nei...
       </button>
@@ -30,13 +30,13 @@
         type="number"
         v-model="inputValue"
         placeholder="Skriv inn streak"
-        class="px 8 py-2 bg-white text-red-500 font-bold rounded-lg
-        shadow-md hover:bg-gray-200"
+        class="input text-center px 8 py-4 bg-white text-black font-bold rounded-lg
+        shadow-md hover:bg-gray-500"
       />
       <button 
       @click="setStreak" 
-      class="px-8 py-2 bg-black text-white font-semibold rounded-lg 
-        shadow-md hover:bg-gray-600 focus:outline-none transition-all duration-300"
+      class="px-10 py-4 bg-black text-white font-semibold rounded-lg 
+        shadow-md hover:bg-gray-500 focus:outline-none transition-all duration-100"
         >
         Sett streak
       </button>
