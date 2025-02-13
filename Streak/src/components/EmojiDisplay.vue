@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-center w-1/3 h-1/4 mx-auto overflow-hidden relative">
-    <img :src="image" :alt="`Emoji for streak ${streak}`" class="w-[400px] h-[400px] object-cover" />
+    <img :src="image" :alt="`Emoji for streak ${streak}`" class="w-[400px] h-[400px] object-cover rounded-lg" />
   </div>
 </template>
 
