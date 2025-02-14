@@ -28,12 +28,7 @@ export default {
   data() {
     return {
       bubbles: [], // Liste med bobler
-      exclusionZones: [], // Eksklusjonsområder for bobleplassering
     };
-  },
-  mounted() {
-    // Oppdater eksklusjonsområder etter render
-    this.updateExclusionZones();
   },
   watch: {
     streak: {
@@ -64,75 +59,19 @@ export default {
       const margin = 20; // Margin på 20px fra kantene
 
       for (let i = 0; i < count; i++) {
-        let bubble = null;
-        let tries = 0;
+        const bubbleSize = Math.random() * 50 + 20; // Størrelse: 20px - 70px
+        const maxWidth = window.innerWidth - bubbleSize - margin;
+        const maxHeight = window.innerHeight - bubbleSize - margin;
 
-        // Generer boble og valider posisjon
-        do {
-          const bubbleSize = Math.random() * 50 + 20; // Størrelse: 20px - 70px
-          const maxWidth = window.innerWidth - bubbleSize - margin;
-          const maxHeight = window.innerHeight - bubbleSize - margin;
+        const bubble = {
+          size: `${bubbleSize}px`,
+          top: `${Math.random() * (maxHeight - margin) + margin}px`,
+          left: `${Math.random() * (maxWidth - margin) + margin}px`,
+          duration: `${Math.random() * 3 + 2}s`, // Variabel hastighet
+          color: colors[Math.floor(Math.random() * colors.length)], // Tilfeldig farge
+        };
 
-          bubble = {
-            size: `${bubbleSize}px`,
-            top: `${Math.random() * (maxHeight - margin) + margin}px`,
-            left: `${Math.random() * (maxWidth - margin) + margin}px`,
-            duration: `${Math.random() * 3 + 2}s`, // Variabel hastighet
-            color: colors[Math.floor(Math.random() * colors.length)], // Tilfeldig farge
-          };
-
-          tries++;
-        } while (this.isInExclusionZone(bubble) && tries < 10);
-
-        if (!this.isInExclusionZone(bubble)) {
-          this.bubbles.push(bubble);
-        }
-      }
-    },
-    isInExclusionZone(bubble) {
-      const bubbleTop = parseFloat(bubble.top);
-      const bubbleLeft = parseFloat(bubble.left);
-      const bubbleSize = parseFloat(bubble.size);
-
-      // Sjekk overlap med eksklusjonsområder
-      return this.exclusionZones.some((zone) => {
-        const zoneTop = zone.top;
-        const zoneBottom = zone.bottom;
-        const zoneLeft = zone.left;
-        const zoneRight = zone.right;
-
-        return (
-          bubbleTop + bubbleSize > zoneTop &&
-          bubbleTop < zoneBottom &&
-          bubbleLeft + bubbleSize > zoneLeft &&
-          bubbleLeft < zoneRight
-        );
-      });
-    },
-    updateExclusionZones() {
-      this.exclusionZones = [];
-
-      const streakButton = this.$refs.streakButton;
-      const emojiImage = this.$refs.emojiImage;
-
-      if (streakButton) {
-        const streakButtonRect = streakButton.getBoundingClientRect();
-        this.exclusionZones.push({
-          top: streakButtonRect.top,
-          bottom: streakButtonRect.bottom,
-          left: streakButtonRect.left,
-          right: streakButtonRect.right,
-        });
-      }
-
-      if (emojiImage) {
-        const emojiImageRect = emojiImage.getBoundingClientRect();
-        this.exclusionZones.push({
-          top: emojiImageRect.top,
-          bottom: emojiImageRect.bottom,
-          left: emojiImageRect.left,
-          right: emojiImageRect.right,
-        });
+        this.bubbles.push(bubble);
       }
     },
   },
