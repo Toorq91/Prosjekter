@@ -1,6 +1,9 @@
 <template>
   <div class="bg-neutral-900 min-h-screen">
-    <h1 class="flex flex-col items center text-center text-6xl font-bold text-red-500 underline w-full py-30">Mine interesser:</h1>
+    <h1 class="flex flex-col items-center text-center text-6xl font-bold underline w-full py-20
+  text-transparent bg-clip-text bg-gradient-to-l from-yellow-500  to-red-500 shadow-xl shadow-red-500">
+  Mine interesser:
+</h1>
     <div class="flex flex-col items-center justify-center min-h-screen text-center -mt-80">
     <ul class="p-[10px] bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70 rounded-lg">
       <ul>
