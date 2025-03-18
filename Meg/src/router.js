@@ -5,6 +5,8 @@ import Interests from './views/InterestsPage.vue'
 import DiscGolf from './views/discgolfPage.vue'
 import TV from './views/tvPage.vue'
 import Gaming from './views/gamingPage.vue'
+import Music from './views/musicPage.vue'
+import Programmering from './views/programmeringPage.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -12,7 +14,9 @@ const routes = [
   { path: '/interests', component: Interests },
   { path: '/discgolf', component: DiscGolf },
   { path: '/tv', component: TV },
-  { path: '/gaming', component: Gaming }
+  { path: '/gaming', component: Gaming },
+  { path: '/music', component: Music },
+  { path: '/programmering', component: Programmering },
 ]
 
 const router = createRouter({
