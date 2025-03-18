@@ -5,7 +5,7 @@
   Mine interesser:
 </h1>
     <div class="flex flex-col items-center justify-center min-h-screen text-center -mt-80">
-    <ul class="p-[10px] bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70 rounded-lg">
+    <ul class="p-[20px] bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70 rounded-lg">
       <ul>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
         bg-gradient-to-b from-red-500 to-yellow-500
