@@ -5,7 +5,7 @@
       Thor Christer Halvorsen Eikeland:
     </h1>
     <div class="flex flex-col items-center justify-center min-h-screen text-center -mt-100">
-      <div class="p-[20px] rounded-lg bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70">
+      <div class="p-[20px] rounded-lg bg-gradient-to-r from-red-500/60 via-yellow-500/70 to-yellow-500/20">
         <div class="p-[20px] rounded-lg bg-neutral-900 text-white text-xl space-y-2">
           <p>saeofijsrgoåisrjgseroguhsrhgosrg aoeihjhsreoghsregsergpåisjegoisrejaseopguhsegopusaheg</p>
           <p>srgopusrhgopusrhgn asegpåoijsrgopjhsroåpgijhsreh srgoisjrgopiusrgjhsrg</p>
