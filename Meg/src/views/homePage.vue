@@ -5,7 +5,7 @@
       Hjem:
     </h1>
 
-    <div class="flex flex-col items-center justify-center min-h-screen text-center -mt-100">
+    <div class="flex flex-col items-center justify-center flex-1 text-center py-20 space-y-8">
       <ul class="p-[20px] bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70 rounded-lg">
         <ul>
           <li class="w-[700px] py-4 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
@@ -26,7 +26,7 @@
       </ul>
     </div>
 
-    <div class="scrolling-container -mt-40">
+    <div class="scrolling-container">
       <div class="scrolling-wrapper">
         <img v-for="(image, index) in images" :key="'left-' + index" :src="image" class="scrolling-image" />
       </div>
