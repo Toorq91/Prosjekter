@@ -4,7 +4,7 @@
   text-transparent bg-clip-text bg-gradient-to-t from-yellow-500  to-red-500 shadow-xl shadow-red-500">
   Mine interesser:
 </h1>
-    <div class="flex flex-col items-center justify-center min-h-screen text-center -mt-80">
+    <div class="flex flex-col items-center justify-center min-h-screen text-center -mt-40">
     <ul class="p-[20px] bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70 rounded-lg">
       <ul>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
