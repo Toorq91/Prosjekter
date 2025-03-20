@@ -9,35 +9,35 @@
       <ul>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
         bg-gradient-to-b from-red-500 to-yellow-500
-        hover:bg-gradient-to-b hover:from-yellow-500/40 hover:to-red-500/40">
+        hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
         <RouterLink to="/discgolf" class="block px-4 py-2 hover:text-blue-500/70 transition duration-500">
             🥏 Disc golf
           </RouterLink>
         </li>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
         bg-gradient-to-b from-red-500 to-yellow-500
-        hover:bg-gradient-to-b hover:from-yellow-500/40 hover:to-red-500/40">
+        hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
           <RouterLink to="/tv" class="block px-4 py-2 hover:text-blue-500/70 transition duration-500">
             📺 TV series/Movies/Anime
           </RouterLink>
         </li>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
                    bg-gradient-to-b from-red-500 to-yellow-500
-                   hover:bg-gradient-to-b hover:from-yellow-500/40 hover:to-red-500/40">
+                   hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
           <RouterLink to="/gaming" class="block px-4 py-2 hover:text-blue-500/70 transition duration-500">
             🎮 Gaming
           </RouterLink>
         </li>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
                    bg-gradient-to-b from-red-500 to-yellow-500
-                   hover:bg-gradient-to-b hover:from-yellow-500/40 hover:to-red-500/40">
+                   hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
           <RouterLink to="/music" class="block px-4 py-2 hover:text-blue-500/70 transition duration-500">
             🎶 Musikk
           </RouterLink>
         </li>
         <li class="w-[700px] py-2 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
                    bg-gradient-to-b from-red-500 to-yellow-500
-                   hover:bg-gradient-to-b hover:from-yellow-500/40 hover:to-red-500/40">
+                   hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
           <RouterLink to="/programmering" class="block px-4 py-2 hover:text-blue-500/70 transition duration-500">
             💻 Programmering
           </RouterLink>
