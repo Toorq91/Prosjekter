@@ -8,26 +8,20 @@
     <div class="flex flex-col items-center justify-center flex-1 text-center py-30">
       <ul class="p-[20px] bg-gradient-to-r from-neutral-800/60 via-red-500/60 to-yellow-500/70 rounded-lg">
         <ul>
-          <!-- <li class="w-[700px] py-4 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
-          bg-gradient-to-b from-red-500 to-yellow-500
-          hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
-            <RouterLink to="/about" class="block px-4 py-4 hover:text-blue-500/70 transition duration-500">
-              Om meg
-            </RouterLink>
-          </li> -->
           <li class="w-[700px] py-4 text-5xl font-semibold transition duration-500 ease-in-out
           flex items-center justify-center
           bg-gradient-to-b from-red-500 to-yellow-500">
-            <RouterLink to="/about" class="btn-1 block w-full">
+            <RouterLink to="/about" class="btn-flip flip-y block w-full">
               <span>Om meg</span>
               <span>Info</span>
             </RouterLink>
           </li>
-          <li class="w-[700px] py-4 text-neutral-900 text-5xl font-semibold transition duration-500 ease-in-out
-          bg-gradient-to-b from-red-500 to-yellow-500
-          hover:bg-gradient-to-b hover:from-yellow-500/60 hover:to-red-500/60">
-            <RouterLink to="/interests" class="block px-4 py-4 hover:text-blue-500/70 transition duration-500">
-              Interesser
+          <li class="w-[700px] py-4 text-5xl font-semibold transition duration-500 ease-in-out
+          flex items-center justify-center
+          bg-gradient-to-b from-red-500 to-yellow-500">
+            <RouterLink to="/interests" class="btn-flip flip-x reverse block w-full"> <!-- reverse for å endre retning på bloksen -->
+              <span>Interesser</span>
+              <span>Mine</span>
             </RouterLink>
           </li>
         </ul>
@@ -66,38 +60,78 @@ const images = [
 
 <style scoped>
 
-.btn-1 {
+.btn-flip {
   height: 80px;
+  position: relative;
 }
 
-.btn-1 span {
+.btn-flip span {
   /* background: rgb(0, 172, 238);
   background: linear-gradient(0deg, rgba(0, 172, 238, 1) 0%, rgba(2, 126, 251, 1) 100%); */
   display: block;
   position: absolute;
   width: 700px;
   line-height: 80px;
-  border-radius: 5px;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
-.btn-1 span:nth-child(1) {
+/* Flipper opp og ned */
+.btn-flip.flip-y span:nth-child(1) {
   transform: rotateX(90deg);
   transform-origin: 50% 50% -20px;
 }
 
-.btn-1 span:nth-child(2) {
+.btn-flip.flip-y span:nth-child(2) {
   transform: rotateX(0deg);
   transform-origin: 50% 50% -20px;
 }
 
-.btn-1:hover span:nth-child(1) {
+.btn-flip.flip-y:hover span:nth-child(1) {
   transform: rotateX(0deg);
 }
 
-.btn-1:hover span:nth-child(2) {
+.btn-flip.flip-y:hover span:nth-child(2) {
   transform: rotateX(-90deg);
 }
+
+/* Flipper sidelengs - (Venstre til høyre) */
+.btn-flip.flip-x span:nth-child(1) {
+  transform: rotateY(90deg);
+  transform-origin: -20px 50%;
+}
+
+.btn-flip.flip-x span:nth-child(2) {
+  transform: rotateY(0deg);
+  transform-origin: -20px 50%;
+}
+
+.btn-flip.flip-x:hover span:nth-child(1) {
+  transform: rotateY(0deg);
+}
+
+.btn-flip.flip-x:hover span:nth-child(2) {
+  transform: rotateY(-90deg);
+}
+
+/* Flipper sidelengs - (Høyre til venstre) */
+.btn-flip.flip-x.reverse span:nth-child(1) {
+  transform: rotateY(-90deg);
+  transform-origin: calc(100% + 20px) 50%;
+}
+
+.btn-flip.flip-x.reverse span:nth-child(2) {
+  transform: rotateY(0deg);
+  transform-origin: calc(100% + 20px) 50%;
+}
+
+.btn-flip.flip-x.reverse:hover span:nth-child(1) {
+  transform: rotateY(0deg);
+}
+
+.btn-flip.flip-x.reverse:hover span:nth-child(2) {
+  transform: rotateY(90deg);
+}
+
 
 
 /* Reklame rullegardin */
