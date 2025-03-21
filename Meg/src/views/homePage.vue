@@ -140,7 +140,7 @@ const images = [
   white-space: nowrap;
   width: 100vw;
   padding: 20px 0;
-  background: linear-gradient(to right, #4e0f0f, #857620);
+  background: linear-gradient(to right, #300707, #5f5718);
 }
 
 .scrolling-wrapper {
