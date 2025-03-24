@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-neutral-900 min-h-screen">
+  <div class="bg-gradient-to-b from-neutral-800 via-neutral-600 to-sky-600 min-h-screen">
     <h1 class="flex flex-col items-center text-center text-6xl font-bold underline w-full py-10
   text-transparent bg-clip-text bg-gradient-to-t from-yellow-500  to-red-500 shadow-xl shadow-red-500">
       Hjem:

@@ -3,7 +3,7 @@
     <!-- Background Wrapper -->
     <div class="absolute inset-0">
       <!-- Blurred Background Image -->
-      <div class="absolute inset-0 bg-[url('/img/gaming.jpg')] bg-cover bg-center blur-[2px]"></div>
+      <div class="absolute inset-0 bg-[url('/img/gaming.png')] bg-cover bg-center blur-[2px]"></div>
       <!-- Semi-transparent Overlay -->
       <div class="absolute inset-0 opacity-20"></div>
     </div>

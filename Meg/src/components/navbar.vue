@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-neutral-800 text-white text-xl p-4 flex justify-center space-x-4">
+  <nav class="bg-neutral-800 text-xl p-4 flex justify-center space-x-4">
     <RouterLink to="/" class="glow-button">🏡 Hjem</RouterLink>
     <RouterLink to="/about" class="glow-button">😎 Meg</RouterLink>
     <RouterLink to="/interests" class="glow-button">✨ Interesser</RouterLink>
@@ -15,7 +15,7 @@
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
-  opacity: 0.75;
+  opacity: 0.85;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 10px rgba(202, 17, 17, 0.7);
 }
