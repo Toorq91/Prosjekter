@@ -5,8 +5,7 @@
       <RouterLink to="/about" class="glow-button">😎 Meg</RouterLink>
       <RouterLink to="/interests" class="glow-button">✨ Interesser</RouterLink>
     </nav>
-    <!-- Red bar with shadow effect -->
-    <div class="absolute left-0 bottom-0 w-full h-[4px] bg-red-500 shadow-[0px_4px_10px_rgba(255,0,0,0.7)]"></div>
+    <div class="absolute left-0 bottom-0 w-full h-[6px] bg-red-500 shadow-[0px_4px_10px_rgba(255,0,0,0.7)]"></div>
   </div>
 </template>
 
