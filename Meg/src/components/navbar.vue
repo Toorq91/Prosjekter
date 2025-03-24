@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-neutral-800 text-xl p-4 flex justify-center space-x-4">
+  <nav class="bg-black text-xl p-4 flex justify-center space-x-4">
     <RouterLink to="/" class="glow-button">🏡 Hjem</RouterLink>
     <RouterLink to="/about" class="glow-button">😎 Meg</RouterLink>
     <RouterLink to="/interests" class="glow-button">✨ Interesser</RouterLink>
