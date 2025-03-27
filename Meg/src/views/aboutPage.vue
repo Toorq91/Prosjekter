@@ -5,8 +5,8 @@
       Thor Christer Halvorsen Eikeland:
     </h1>
     <div class="flex flex-col items-center justify-center flex-1 text-center py-30 relative w-full px-6">
-      <div class="p-[20px] rounded-xl bg-gradient-to-r from-red-500/60 via-yellow-500/70 to-yellow-500/20 relative w-full max-w-4xl">
-        <div class="p-[20px] rounded-xl bg-neutral-900 relative z-10">
+      <div class="p-[10px] rounded-xl bg-gradient-to-r from-red-500/60 via-yellow-500/70 to-yellow-500/20 relative w-full max-w-4xl">
+        <div class="p-[10px] rounded-xl bg-neutral-900 relative z-10">
 
           <!-- Your main text content -->
           <p class="leading-relaxed text-white text-md font-bold">
