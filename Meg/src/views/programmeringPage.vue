@@ -1,21 +1,20 @@
 <template>
-  <div class="relative min-h-screen bg-neutral-900">
-    <div class="absolute inset-0 bg-[url('/img/programmering.jpeg')] bg-cover bg-center">
-      <div class="relative z-10 flex flex-col items-center text-center min-h-screen">
-        <h1 class="text-6xl font-bold py-10 text-transparent bg-clip-text
-        bg-gradient-to-t from-yellow-500 to-red-500">
-        Programmering:
-      </h1>
-      <div class="flex flex-col justify-center flex-1">
-        <div class="p-[20px] rounded-lg border-2 border-yellow-500">
-          <div class="rounded-lg bg-transparent text-white text-xl space-y-2">
-            <p>saeofijsrgoåisrjgseroguhsrhgosrg aoeihjhsreoghsregsergpåisjegoisrejaseopguhsegopusaheg</p>
-            <p>srgopusrhgopusrhgn asegpåoijsrgopjhsroåpgijhsreh srgoisjrgopiusrgjhsrg</p>
-            <p>srgoushrgousraefopusheg seioguhse9guhsr9iughsrg pioushegiopushrghg</p>
+  <div class="absolute inset-0 bg-[url('/img/programmering.png')] bg-cover bg-[center_top_250px]">
+    <h1 class="flex flex-col items-center text-center text-6xl font-bold py-10 text-transparent bg-clip-text
+        bg-gradient-to-t from-yellow-500 to-red-500 shadow-lg shadow-red-500 mt-20">
+      Programmering:
+    </h1>
+      <div class="flex flex-col items-center justify-center flex-1 text-center py-30 relative w-full px-6">
+        <div class="p-[20px] rounded-xl bg-gradient-to-r from-red-500/60 via-yellow-500/70 to-yellow-500/20 relative w-full max-w-4xl">
+          <div class="p-[20px] rounded-xl bg-neutral-900 relative z-10 text-white">
+            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
+            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
+            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
+            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
+            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
+            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
           </div>
-        </div>
       </div>
     </div>
   </div>
-</div>
 </template>
