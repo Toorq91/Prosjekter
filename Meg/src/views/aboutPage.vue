@@ -70,87 +70,41 @@
 
         </div>
 
-        <div class="absolute blur-[2px] inset-0 flex flex-col gap-12 p-8 opacity-30 z-10 w-full">
-          <!-- Row 1 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-gradient-to-t from-sky-500 via-teal-500 rounded-full"></div>
-            <div class="w-0/3 h-10 bg-teal-500 rounded-full ml-auto"></div>
-            <div class="w-0/3 h-10 bg-teal-500 rounded-full mx-auto"></div>
-          </div>
+        <div class="absolute inset-0 z-10 pointer-events-none">
+      <div class="absolute w-full h-full flex flex-wrap justify-around items-center opacity-20">
 
-          <!-- Row 2 -->
-          <div class="flex gap-4">
-            <div class="w-0/3 h-10 bg-teal-200 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-          </div>
+        <!-- Block 1 -->
+        <div class="absolute top-52.5 left-57 w-22 h-22 bg-gradient-to-t from-sky-500 to-teal-500 rounded-full shadow-lg shadow-orange-500 animate-float"></div>
 
-          <!-- Row 3 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-2/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-200 rounded-full ml-auto"></div>
-          </div>
+        <!-- Block 2 -->
+        <div class="absolute top-63 right-18 w-18 h-18 bg-gradient-to-b from-teal-400 to-sky-600 rounded-xl shadow-lg shadow-blue-500 animate-float delay-1000"></div>
 
-          <!-- Row 4 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
+        <!-- Block 3 -->
+        <div class="absolute top-106 left-30 w-24 h-24 bg-gradient-to-b from-teal-500 to-sky-700 rounded-xl shadow-lg shadow-green-500 animate-float delay-2000"></div>
 
-          <!-- Row 5 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full ml-auto"></div>
-          </div>
+        <!-- Block 4 -->
+        <div class="absolute top-160 right-20 w-40 h-40 bg-gradient-to-b from-sky-700 to-teal-700 rounded-full shadow-xl shadow-purple-500 animate-float delay-1500"></div>
 
-          <!-- Row 6 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
-
-          <!-- Row 7 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
-
-          <!-- Row 8 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
-
-          <!-- Row 9 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
-
-          <!-- Row 10 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
-
-          <!-- Row 11 -->
-          <div class="flex gap-4">
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full"></div>
-            <div class="w-1/3 h-10 bg-teal-400 rounded-full mx-auto"></div>
-            <div class="w-1/3 h-10 bg-teal-300 rounded-full ml-auto"></div>
-          </div>
-
-
-        </div>
+        <!-- Block 5 -->
+        <div class="absolute top-192 left-50 w-28 h-28 bg-gradient-to-b from-teal-500 to-sky-600 rounded-full shadow-lg shadow-pink-500 animate-float delay-500"></div>
+      </div>
+    </div>
       </div>
     </div>
   </div>
 </template>
+
+<style>
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float {
+  animation: float 5s ease-in-out infinite;
+}
+.delay-500 { animation-delay: 0.5s; }
+.delay-1000 { animation-delay: 1s; }
+.delay-1500 { animation-delay: 1.5s; }
+.delay-2000 { animation-delay: 2s; }
+</style>

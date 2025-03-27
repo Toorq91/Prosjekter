@@ -2,7 +2,7 @@
   <div class="relative">
     <nav class="bg-black text-xl p-4 flex justify-center space-x-4 relative z-10">
       <RouterLink to="/" class="glow-button">🏡 Hjem</RouterLink>
-      <RouterLink to="/about" class="glow-button">😎 Meg</RouterLink>
+      <RouterLink to="/about" class="glow-button">😎 Min CV</RouterLink>
       <RouterLink to="/interests" class="glow-button">✨ Interesser</RouterLink>
     </nav>
     <div class="absolute left-0 bottom-0 w-full h-[6px] bg-red-500 shadow-[0px_4px_10px_rgba(255,0,0,0.7)]"></div>

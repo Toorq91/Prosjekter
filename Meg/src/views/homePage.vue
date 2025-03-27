@@ -12,8 +12,8 @@
           flex items-center justify-center
           bg-gradient-to-b from-red-500 to-yellow-500">
             <RouterLink to="/about" class="btn-flip flip-y block w-full">
-              <span>Om meg</span>
-              <span>Info</span>
+              <span>Denne veien</span>
+              <span>CV</span>
             </RouterLink>
           </li>
           <li class="w-[700px] py-4 text-5xl font-semibold transition duration-500 ease-in-out

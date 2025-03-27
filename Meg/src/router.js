@@ -7,6 +7,7 @@ import TV from './views/tvPage.vue'
 import Gaming from './views/gamingPage.vue'
 import Music from './views/musicPage.vue'
 import Programmering from './views/programmeringPage.vue'
+import Trening from './views/trainingPage.vue'
 
 const routes = [
   { path: '/', component: Home },
@@ -17,6 +18,7 @@ const routes = [
   { path: '/gaming', component: Gaming },
   { path: '/music', component: Music },
   { path: '/programmering', component: Programmering },
+  { path: '/trening', component: Trening },
 ]
 
 const router = createRouter({
