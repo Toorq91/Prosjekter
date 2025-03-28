@@ -9,7 +9,7 @@
         <div class="p-[10px] rounded-xl bg-neutral-900 relative z-10">
 
           <!-- Your main text content -->
-          <p class="leading-relaxed text-white text-md font-bold">
+          <div class="leading-relaxed text-white text-md font-bold">
             Jeg har nylig fullført kurs i CSS, HTML, JavaScript, C#, SQL,
             og andre teknologier, noe som har gitt meg en solid teknisk
             grunnmur og økt interesse for IT-utvikling.
@@ -20,7 +20,7 @@
             personlig utvikling og kommet sterkere ut av det.
             Nå søker jeg en arbeidsplass hvor jeg kan trives, utvikle meg
             videre, og få mer erfaring innen IT-utvikling.
-          </p>
+          </div>
           <br>
           <h1 class="text-red-500 font-extrabold underline scale-100 text-xl text-left">
             Arbeidserfaring:

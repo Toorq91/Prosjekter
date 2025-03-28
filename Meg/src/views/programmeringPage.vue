@@ -7,12 +7,10 @@
       <div class="flex flex-col items-center justify-center flex-1 text-center py-30 relative w-full px-6">
         <div class="p-[10px] rounded-xl bg-gradient-to-r from-red-500/60 via-yellow-500/70 to-yellow-500/20 relative w-full max-w-4xl">
           <div class="p-[20px] rounded-xl bg-neutral-900 relative z-10 text-white">
-            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
-            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
-            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
-            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
-            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
-            oøauehgousrhgousergoasuhg9p478gh4980g0så4igjs04åigjs40åigjs4g
+            test test test test test test test test test test test test test test test test test test test test
+            test test test test test test test test test test test test test test test test test test test test
+            test test test test test test test test test test test test test test test test test test test test
+            test test test test test test test test test test test test test test test test test test test test
           </div>
       </div>
     </div>
